@@ -1,0 +1,7 @@
+{
+  "name": "genshin-datamine-packages",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -2,7 +2,8 @@
 A collection of Node / Bun packages around Genshin Impact datamining
 
 ## 📦 Packages
-// TODO
+- The [generated types](./packages/generated-types) package is available under `@genshin-datamine/generated-types`.
+- The [types](./packages/types) package is available under `@genshin-datamine/types`.
 
 ## 📃 Prerequisites
 - **[Node.js](https://nodejs.org/en/)**: >= v23.11.1
