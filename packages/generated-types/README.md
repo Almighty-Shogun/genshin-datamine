@@ -9,19 +9,19 @@ If you’re looking for **stronger, more precise typings**, check out the [**typ
 # Missing Typings
 The following typings are currently **not included** because the corresponding files are empty:
 
-- `HomeworldFurnitureDeployRulesetData`
-- `NpcCrowd`
-- `ActivityGachaStageText`
-- `QuestAbyssWarLevelExec`
-- `SensitiveWordConfigData`
-- `ActivityNatlanOffer`
-- `TalkSelectTimeOut`
-- `HomeWorldInteractiveNPC`
-- `ProductConcertPackageDetailConfigData`
-- `GCGStage`
-- `ActivityGroupLinks`
-- `ActivityNatlanExchange`
-- `ActivityAutoChessTalent`
-- `HandbookQuestGuideHintPic`
-- `MatchNewRuleSpecified`
-- `HomeWorldCamera`
+- HomeworldFurnitureDeployRulesetData
+- NpcCrowd
+- ActivityGachaStageText
+- QuestAbyssWarLevelExec
+- SensitiveWordConfigData
+- ActivityNatlanOffer
+- TalkSelectTimeOut
+- HomeWorldInteractiveNPC
+- ProductConcertPackageDetailConfigData
+- GCGStage
+- ActivityGroupLinks
+- ActivityNatlanExchange
+- ActivityAutoChessTalent
+- HandbookQuestGuideHintPic
+- MatchNewRuleSpecified
+- HomeWorldCamera
