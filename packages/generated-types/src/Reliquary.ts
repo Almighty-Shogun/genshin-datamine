@@ -1,0 +1,28 @@
+export type Reliquary = {
+    addPropLevels: number[];
+    appendPropDepotId: number;
+    appendPropNum: number;
+    baseConvExp: number;
+    descTextMapHash: number;
+    destroyReturnMaterial: number[];
+    destroyReturnMaterialCount: number[];
+    destroyRule: string;
+    dropable: boolean;
+    equipType: string;
+    gadgetId: number;
+    globalItemLimit: number;
+    icon: string;
+    id: number;
+    initialLockState: number;
+    itemType: string;
+    mainPropDepotId: number;
+    maxLevel: number;
+    nameTextMapHash: number;
+    rank: number;
+    rankLevel: number;
+    setId: number;
+    showPic: string;
+    storyId: number;
+    useLevel: number;
+    weight: number;
+};

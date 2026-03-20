@@ -1,0 +1,22 @@
+export type BrickBreakerWorldLevel = {
+    id: number;
+    worldLevelId: number;
+    draftId: number;
+    limitTime: number;
+    maxSkillCount: number;
+    sceneId: number;
+    groupId: number;
+    transportPointList: number[];
+    durationList: number[];
+    galleryId: number;
+    levelTitleTextMapHash: number;
+    combineTitleTextMapHash: number;
+    levelDescTextMapHash: number;
+    levelMapHash: number;
+    brickList: number[];
+    banElementList: string[];
+    scoreParamList: number[];
+    isHard: boolean;
+    limitBall: number;
+    isPlot: boolean;
+};

@@ -1,0 +1,20 @@
+export type FungusFighterV2 = {
+    dayIndex: number;
+    dungeonId: number;
+    finishPushTaskId: number;
+    fungusIdList: number[];
+    fungusRecommend: number[];
+    galleryId: number;
+    hasMechanism: boolean;
+    isGuideLevel: boolean;
+    levelBannerSubTitleTextMapHash: number;
+    levelBannerTitleTextMapHash: number;
+    levelDescTextMapHash: number;
+    levelId: number;
+    levelImagePath: string;
+    levelNameTextMapHash: number;
+    levelStatusDescTextMapHash: number;
+    skillPointResumeInterval: number;
+    towerIdList: number[];
+    watcherList: number[];
+};

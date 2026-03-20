@@ -1,0 +1,22 @@
+export type DailyTask = {
+    centerPosition: string;
+    cityId: number;
+    descriptionTextMapHash: number;
+    enterDistance: number;
+    exitDistance: number;
+    finishParam1: number;
+    finishParam2: number;
+    finishProgress: number;
+    finishType: string;
+    id: number;
+    newGroupVec: number[];
+    oldGroupVec: number[];
+    poolId: number;
+    questId: number;
+    radarRadius: number;
+    rarity: number;
+    targetTextMapHash: number;
+    taskRewardId: number;
+    titleTextMapHash: number;
+    type: string;
+};

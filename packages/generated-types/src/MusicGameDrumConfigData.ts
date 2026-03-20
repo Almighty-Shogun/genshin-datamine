@@ -1,0 +1,31 @@
+import type { ObfuscatedValue } from './common';
+
+export type MusicGameDrumConfigData = {
+    calibMusicInfo: number[];
+    calibViewportRange: number[];
+    comboEffectShowCount: number[];
+    delaySettingRange: number[];
+    dropSpeedSettingRange: number[];
+    failTime: number;
+    greatRange: number[];
+    id: number;
+    keySoundSettingRange: number[];
+    longPressEndCompensation: number;
+    perfectRange: number[];
+    ugcCursorMoveParams: number[];
+    ugcEditorPushTipIds: number[];
+    ugcEditViewportRange: number[];
+    ugcLongPressNoteWeight: number;
+    ugcMaxHistoryNum: number;
+    ugcMaxNoteNum: number;
+    ugcMaxSavedScoreNum: number;
+    ugcMusicPlaySpeedList: number[];
+    ugcPerMusicNum: number;
+    ugcPrefixPlayTime: number;
+    ugcPublishLimit: number;
+    ugcRankScoreRatioList: number[];
+    ugcRegionalNoteLimit: number[];
+    ugcTimeLineViewportRange: number[];
+    ugcTutorialBlackList: number[];
+    ugcTutorialPushTipIds: number[];
+} & ObfuscatedValue;

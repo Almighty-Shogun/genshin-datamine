@@ -1,0 +1,38 @@
+import type { ObfuscatedValue } from './common';
+
+export type Gallery = {
+    abilityGroup: string;
+    abilityGroupList: string[];
+    canInterruptByClient: boolean;
+    centerPosList: number[];
+    centerRadius: number;
+    controlGroupId: number;
+    descTextMapHash: number;
+    destroyGadgetPosition: number[];
+    destroyGadgetRadius: number;
+    duration: number;
+    endAudioValues: string;
+    galleryMSGTextMapHash: number;
+    galleryNameTextMapHash: number;
+    groupFurnitureId: number;
+    groupId: number[];
+    id: number;
+    isDisableGroupDefaultReviseLevel: boolean;
+    isEnableMpPrepare: boolean;
+    limitRegion: string;
+    mpPrepareTime: number;
+    nameTextMapHash: number;
+    param: string[];
+    pic: string;
+    preStartAudioValues: string;
+    revivePointConfigId: number;
+    revivePointGroupId: number;
+    sceneId: number;
+    selectableAbilityGroups: string[];
+    selectableTeamAbilityGroupList: string[];
+    singlePrepareTime: number;
+    startAudioValues: string;
+    targetTextMapHash: number;
+    teamAbilityGroupList: string[];
+    type: string;
+} & ObfuscatedValue;

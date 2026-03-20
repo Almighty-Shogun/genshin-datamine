@@ -1,0 +1,25 @@
+export type ActivityFFV2PhotographPos = {
+    id: number;
+    groupLinkId: number;
+    posTitleTextMapHash: number;
+    requireTitleInActivityPageTextMapHash: number;
+    requireDescInActivityPageTextMapHash: number;
+    npcInviteDescTextMapHash: number;
+    npcCommentDescTextMapHash: number;
+    picSmall: string;
+    picBig: string;
+    photoCheckRootID: number;
+    rootNodeDescTextMapHash: number;
+    photoCheckSubNodeID: number[];
+    photoCheckSubNodeDesc: number[];
+    openDay: number;
+    watcherId: number;
+    galleryId: number;
+    redPointID: number;
+    presetCheckRootID: number;
+    presetCheckSubID: number;
+    presetCheckSubDescTextMapHash: number;
+    presetPreviewIconGirl: string[];
+    presetPreviewIconBoy: string[];
+    sceneID: number;
+};

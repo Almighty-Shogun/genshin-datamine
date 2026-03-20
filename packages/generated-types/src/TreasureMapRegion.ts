@@ -1,0 +1,22 @@
+export type TreasureMapRegion = {
+    backupGroupList: number[];
+    fragmentBonusId: number;
+    groupList: number[];
+    id: number;
+    miscDropId: number;
+    miscDropProbList: number[];
+    mpDescTextMapHash: number;
+    mpGroupId: number;
+    mpPosition: number[];
+    mpRewardPreviewId: number;
+    mpTokenThreshold: number;
+    mpTypeId: number;
+    regionCenter: number[];
+    regionEntryId: number;
+    regionRadius: number;
+    reviseLevel: number;
+    spotNumList: number[];
+    tokenNum: number;
+    tokenNumList: number[];
+    unlockDay: number;
+};

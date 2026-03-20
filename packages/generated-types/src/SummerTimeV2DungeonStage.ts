@@ -1,0 +1,23 @@
+export type SummerTimeV2DungeonStage = {
+    stageId: number;
+    dayIndex: number;
+    prevDungeonId: number;
+    cycleDungeonId: number;
+    watcherList: number[];
+    questIdList: number[];
+    questId: number;
+    entranceNameTextMapHash: number;
+    questNameTextMapHash: number;
+    questDescTextMapHash: number;
+    pushTipsId: number;
+    dungeonEntryId: number;
+    storyDungeonId1: number;
+    storyDungeonId2: number;
+    storyDungeonId3: number;
+    dungeonExhibitionIdList: number[];
+    dungeonCardIdList: number[];
+    storyStartCondId: number;
+    dungeonStartCondId: number;
+    dungeonRewardLimit: number;
+    dungeonEntryNameTextMapHash: number;
+};
