@@ -1,0 +1,21 @@
+export type Fungus = {
+    id: number;
+    campId: number;
+    captureMonsterId: number;
+    fightMonsterId: number;
+    initNameId: number;
+    nameIdList: number[];
+    configId: number;
+    skillCD: number;
+    iconDefault: string;
+    iconCultivated: string;
+    iconInBattlePanel: string;
+    iconCultivatedSmall: string;
+    featureIcon: string;
+    featureDescTextMapHash: number;
+    skillName: number[];
+    skillDesc: number[];
+    infoDescTextMapHash: number;
+    afterCultivateDescTextMapHash: number;
+    renameDescTextMapHash: number;
+};

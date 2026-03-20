@@ -1,0 +1,33 @@
+export type LanV2ProjectionLevel = {
+    elementConfigs: {
+        correctPose: number[];
+        freeRotationTolerance: number[];
+        initialPose: number[];
+        motionType: string;
+        prefabPath: string;
+        shadowPrefabPath: string;
+        singleAxisMotionAxis: number[];
+        singleAxisMotionLimit: number[];
+        singleAxisMotionTolerance: number;
+        switchButtonConfigId: number;
+    }[];
+    endDialogIconOffsetX: number;
+    endDialogIconOffsetY: number;
+    endDialogIconScale: number;
+    hierarchy: number[][];
+    iconNormal: string;
+    iconSilhouette: string;
+    levelId: number;
+    levelNameTextMapHash: number;
+    rootPointCorrectPose: number[];
+    rootPointFreeRotationTolerance: unknown[];
+    rootPointInitialPose: number[];
+    rootPointMotionType: string;
+    rootPointSingleAxisRotationAxis: number[];
+    rootPointSingleAxisRotationLimit: number[];
+    rootPointSingleAxisRotationTolerance: number;
+    rootPointSwitchButtonConfigId: number;
+    sceneSuiteId: number;
+    stageId: number;
+    watcherId: number;
+};

@@ -1,0 +1,27 @@
+import type { ObfuscatedValue } from './common';
+
+export type AvatarSkill = {
+    abilityName: string;
+    buffIcon: string;
+    cdSlot: number;
+    cdTime: number;
+    costElemType: string;
+    costElemVal: number;
+    costStamina: number;
+    descTextMapHash: number;
+    dragType: string;
+    energyMin: number;
+    extraDescTextMapHash: number;
+    globalValueKey: string;
+    id: number;
+    isAttackCameraLock: boolean;
+    lockShape: string;
+    lockWeightParams: number[];
+    maxChargeNum: number;
+    nameTextMapHash: number;
+    needMonitor: string;
+    proudSkillGroupId: number;
+    shareCDID: number;
+    skillIcon: string;
+    triggerID: number;
+} & ObfuscatedValue;

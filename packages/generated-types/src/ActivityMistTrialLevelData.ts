@@ -1,0 +1,21 @@
+export type ActivityMistTrialLevelData = {
+    battleStatisticsData: number[];
+    bgIconHash: number;
+    challengeMissionWatcherList: number[];
+    dungeonFactorIdList: number[];
+    dungeonId: number;
+    failTips: string[];
+    floorLevelList: number[];
+    id: number;
+    keyMonsterPreviewIdList: number[];
+    levelDescTextMapHash: number;
+    levelId: number;
+    levelTitleTextMapHash: number;
+    mapPictureHash: number;
+    monsterPreviewIdList: number[];
+    openDay: number;
+    scheduleId: number;
+    serverGlobalValueKey: string;
+    statisticsIdList: number[];
+    trialAvatarIdList: number[];
+};

@@ -1,0 +1,21 @@
+export type ActivitySandwormCannonLevel = {
+    buffBackground: string;
+    buffDescriptionTextMapHash: number;
+    buffIcon: string;
+    finishGroupId: number;
+    finishPointId: number;
+    galleryId: number;
+    groupBundleIdList: number[];
+    groupId: number;
+    id: number;
+    isReplayAble: boolean;
+    levelDescription: string;
+    levelTitleTextMapHash: number;
+    npcBanConfig: string;
+    openTime: number;
+    pointId: number;
+    preQuestID: number;
+    pushTipsID: number;
+    sequelQuestID: number;
+    watcherList: number[];
+};

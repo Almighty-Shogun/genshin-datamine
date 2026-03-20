@@ -1,0 +1,27 @@
+export type FungusTrainingDungeon = {
+    dungeonId: number;
+    roundCount: number;
+    trainingType: string;
+    unlockDay: number;
+    trainingStageId: number;
+    galleryId: number;
+    validFungusIdList: number[];
+    recommendedFungusIdList: number[];
+    cultivationCountRequirement: number;
+    fungusGroupId: number;
+    pointConfigIdList: number[];
+    baseScore: number;
+    baseTimeScore: number;
+    timeParam: number;
+    dieParam: number;
+    watcherIds: number[];
+    titleInitialTextMapHash: number;
+    descInitialTextMapHash: number;
+    titleChangedTextMapHash: number;
+    descChangedTextMapHash: number;
+    dangerousMonsterList: number[];
+    goalParam: number;
+    backupFungusNum: number;
+    defendConfigId: number;
+    defendParam: number;
+};

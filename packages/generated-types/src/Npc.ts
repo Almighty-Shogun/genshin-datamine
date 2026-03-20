@@ -1,0 +1,36 @@
+import type { ObfuscatedValue } from './common';
+
+export type Npc = {
+    actionIdList: number[];
+    alias: string;
+    animatorConfigPathHash: number;
+    avatarID: number;
+    billboardIcon: string;
+    billboardType: string;
+    bodyType: string;
+    campID: number;
+    controllerPathHash: number;
+    controllerPathRemoteHash: number;
+    deformationMeshPathHash: number;
+    disableShowName: boolean;
+    elementType: string;
+    featureTagGroupId: number;
+    firstMetId: number;
+    hasAudio: boolean;
+    hasMove: boolean;
+    id: number;
+    invisiable: boolean;
+    isDaily: boolean;
+    jsonName: string;
+    jsonPathHash: number;
+    lodPatternName: string;
+    luaDataIndex: number;
+    luaDataPath: string;
+    nameTextMapHash: number;
+    prefabPathHash: number;
+    prefabPathRemoteHash: number;
+    scriptDataPath: string;
+    specialType: string;
+    templateEmotionPath: string;
+    uniqueBodyId: number;
+} & ObfuscatedValue;

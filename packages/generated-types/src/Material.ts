@@ -1,0 +1,47 @@
+import type { ObfuscatedValue } from './common';
+
+export type Material = {
+    cdGroup: number;
+    cdTime: number;
+    closeBagAfterUsed: boolean;
+    descTextMapHash: number;
+    destroyReturnMaterial: unknown[];
+    destroyReturnMaterialCount: unknown[];
+    destroyRule: string;
+    dropable: boolean;
+    effectDescTextMapHash: number;
+    effectGadgetID: number;
+    effectIcon: string;
+    effectName: string;
+    foodQuality: string;
+    gadgetId: number;
+    globalItemLimit: number;
+    icon: string;
+    id: number;
+    interactionTitleTextMapHash: number;
+    isForceGetHint: boolean;
+    isHidden: boolean;
+    isSplitDrop: boolean;
+    itemType: string;
+    itemUse: {
+        useOp: string;
+        useParam: string[];
+    }[];
+    materialType: string;
+    maxUseCount: number;
+    nameTextMapHash: number;
+    noFirstGetHint: boolean;
+    picPath: string[];
+    playGainEffect: boolean;
+    rank: number;
+    rankLevel: number;
+    satiationParams: number[];
+    setID: number;
+    specialDescTextMapHash: number;
+    stackLimit: number;
+    typeDescTextMapHash: number;
+    useLevel: number;
+    useOnGain: boolean;
+    useTarget: string;
+    weight: number;
+} & ObfuscatedValue;

@@ -1,0 +1,26 @@
+export type LanV3BoatBase = {
+    scheduleId: number;
+    stageMaxScoreLimit: number[];
+    scoreRewardIdList: number[];
+    boatReviveProgressGVKey: string;
+    boatCoinCollectGVKey: string;
+    boatLifeCountGVKey: string;
+    boatMaxLifeCountGVKey: string;
+    settlePlayerCardShowTime: number;
+    exhibitionScoreIdList: number[];
+    exhibitionScoreIdListSingleMode: number[];
+    vehicleSkillList: number[];
+    minCoinDisplayStar: number;
+    mapRandomDisplayTime: number;
+    preQuestId: number;
+    matchId: number;
+    draftId: number;
+    singleTutorialId: number;
+    mpTutorialId: number;
+    singleRuleTextMapIdList: string[];
+    mpRuleTextMapIdList: string[];
+    boatGameDescTextMapHash: number;
+    countDownSeconds: number;
+    abilityGroupName: string;
+    billboardCoinIconPath: string;
+};
