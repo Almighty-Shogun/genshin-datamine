@@ -15,7 +15,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Almighty-Shogun/Genshin-Datamine.git",
+        "url": "git+https://github.com/Almighty-Shogun/genshin-datamine.git",
         "directory": "packages/generated-types"
     },
     "keywords": [
