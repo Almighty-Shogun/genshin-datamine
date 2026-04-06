@@ -12,10 +12,6 @@ export type BlossomRefresh = {
     nameTextMapHash: number;
     openLevel: number;
     openState: string;
-    refreshCondVec: {
-        param: number[];
-        type: string;
-    }[];
     refreshCount: number;
     refreshTime: string;
     refreshType: string;

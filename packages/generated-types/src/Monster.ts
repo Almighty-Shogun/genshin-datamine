@@ -25,6 +25,10 @@ export type Monster = {
     grassSubHurt: number;
     hideNameInElementView: boolean;
     hpBase: number;
+    hpDrops: {
+        dropId: number;
+        hpPercent: number;
+    }[];
     iceSubHurt: number;
     id: number;
     isAIHashCheck: boolean;

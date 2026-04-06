@@ -1,6 +1,8 @@
-import type { ObfuscatedValue } from './common';
-
 export type GCGGameReward = {
+    challengeRewardList: {
+        challengeId: number;
+        rewardId: number;
+    }[];
     condList: {
         paramList: number[];
         type: string;
@@ -19,4 +21,4 @@ export type GCGGameReward = {
     ruleDec: number[];
     selfAvatarPicRule: string;
     unlockDec: number[];
-} & ObfuscatedValue;
+};

@@ -23,5 +23,8 @@ export type AvatarSkill = {
     proudSkillGroupId: number;
     shareCDID: number;
     skillIcon: string;
+    specialEnergyMax: number;
+    specialEnergyMin: number;
+    specialEnergyType: string;
     triggerID: number;
 } & ObfuscatedValue;

@@ -7,6 +7,10 @@ export type ProudSkill = {
     }[];
     breakLevel: number;
     coinCost: number;
+    costItems: {
+        count: number;
+        id: number;
+    }[];
     descTextMapHash: number;
     filterConds: string[];
     icon: string;

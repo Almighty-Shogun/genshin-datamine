@@ -3,8 +3,6 @@ import type { ObfuscatedValue } from './common';
 export type ActivityBirdBallPreview = {
     descTextMapHash: number;
     iconPath: string;
-    id: {
-        value: number;
-    };
+    id: number;
     nameTextMapHash: number;
 } & ObfuscatedValue;

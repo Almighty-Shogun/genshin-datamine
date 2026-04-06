@@ -5,6 +5,10 @@ export type AvatarSkillDepot = {
     energySkill: number;
     extraAbilities: string[];
     id: number;
+    inherentProudSkillOpens: {
+        needAvatarPromoteLevel: number;
+        proudSkillGroupId: number;
+    }[];
     leaderTalent: number;
     skillDepotAbilityGroup: string;
     skills: number[];

@@ -5,6 +5,10 @@ export type ShopGoods = {
     buyLimit: number;
     chooseOneGroupId: number;
     costHcoin: number;
+    costItems: {
+        count: number;
+        id: number;
+    }[];
     costMcoin: number;
     costScoin: number;
     discountRate: number;

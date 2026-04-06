@@ -15,6 +15,7 @@ The following typings are currently **not included** because the corresponding f
 - QuestAbyssWarLevelExec
 - SensitiveWordConfigData
 - ActivityNatlanOffer
+- CharMasterUpdate
 - TalkSelectTimeOut
 - HomeWorldInteractiveNPC
 - ProductConcertPackageDetailConfigData

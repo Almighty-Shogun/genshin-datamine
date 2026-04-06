@@ -11,6 +11,10 @@ export type GadgetInteract = {
         condType: string;
         param: string[];
     }[];
+    costItems: {
+        count: number;
+        id: number;
+    }[];
     interactId: number;
     isMpModeInteract: boolean;
     param1: number;

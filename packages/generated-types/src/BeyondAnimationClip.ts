@@ -5,4 +5,5 @@ export type BeyondAnimationClip = {
     id: number;
     nameTextMapHash: number;
     stateName: string;
+    tagList: number[];
 } & ObfuscatedValue;
