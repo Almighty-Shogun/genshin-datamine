@@ -36,10 +36,10 @@ jobs:
           bun pm version --cwd packages/types $RELEASE_VERSION --no-git-tag-version || true
           bun pm version --cwd packages/generated-types $RELEASE_VERSION --no-git-tag-version || true
 
-#      - name: Build packages
-#        run: |
-#          bun --cwd packages/types
-#          bun --cwd packages/generated-types
+      - name: Build packages
+        run: |
+          bun --cwd packages/types
+          bun --cwd packages/generated-types
 
       - name: Publish packages
         run: |
