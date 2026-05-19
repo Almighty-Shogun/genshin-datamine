@@ -1,4 +1,4 @@
-import type { ObfuscatedValue, TextMapHash, AdditionProp } from '../common';
+import type { ObfuscatedValue, TextMapHash, AdditionProp, CostItem } from '../common';
 
 export type LifeEffectType =
     | "PROUD_EFFECT_NONE"
@@ -23,6 +23,7 @@ export type ProudSkill = {
     addProps: AdditionProp[];
     breakLevel: number;
     coinCost: number;
+    costItems: CostItem[];
     filterConds: string[];
     icon: string;
     isHideLifeProudSkill: boolean;

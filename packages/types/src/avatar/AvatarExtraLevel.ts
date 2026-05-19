@@ -1,4 +1,5 @@
-import type { ObfuscatedValue } from '../common';
+import type { ObfuscatedValue, CostItem } from '../common';
 
-// Entire datamined file is obfuscated.
-export type AvatarExtraLevel = ObfuscatedValue;
+export type AvatarExtraLevel = {
+    costItems: CostItem[];
+} & ObfuscatedValue;

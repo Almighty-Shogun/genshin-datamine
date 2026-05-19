@@ -1,8 +1,9 @@
-import type { ObfuscatedValue, AdditionProp } from '../common';
+import type { ObfuscatedValue, AdditionProp, CostItem } from '../common';
 
 export type AvatarPromote = {
     addProps: AdditionProp[];
     avatarPromoteId: number;
+    costItems: CostItem[];
     promoteAudio: string;
     promoteLevel: number;
     requiredPlayerLevel: number;

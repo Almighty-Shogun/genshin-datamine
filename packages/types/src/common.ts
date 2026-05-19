@@ -66,6 +66,11 @@ export type AdditionProp = {
     value: number;
 };
 
+export type CostItem = {
+    count: number;
+    id: number;
+};
+
 export type CurveInfo<T> = {
     arith: string;
     type: T;

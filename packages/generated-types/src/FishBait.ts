@@ -1,5 +1,3 @@
-import type { ObfuscatedValue } from './common';
-
 export type FishBait = {
     featureList: {
         bonusRange: number;
@@ -8,4 +6,5 @@ export type FishBait = {
     }[];
     id: number;
     poolIdList: number[];
-} & ObfuscatedValue;
+    sort: number;
+};

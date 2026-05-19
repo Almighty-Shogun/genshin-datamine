@@ -19,7 +19,7 @@ export type Fetter = {
     showCostumeList: number[];
     tips: number[];
     type: number;
-    voiceFile: number;
+    voiceFile: string;
     voiceFileTextMapHash: number;
     voiceTitleLockedTextMapHash: number;
     voiceTitleTextMapHash: number;

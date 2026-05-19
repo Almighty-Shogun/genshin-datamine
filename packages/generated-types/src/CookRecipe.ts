@@ -1,5 +1,3 @@
-import type { ObfuscatedValue } from './common';
-
 export type CookRecipe = {
     cookMethod: string;
     descTextMapHash: number;
@@ -7,10 +5,18 @@ export type CookRecipe = {
     foodType: string;
     icon: string;
     id: number;
+    inputVec: {
+        count: number;
+        id: number;
+    }[];
     isDefaultUnlocked: boolean;
     maxProficiency: number;
     nameTextMapHash: number;
     qteParam: string;
     qteQualityWeightVec: number[];
+    qualityOutputVec: {
+        count: number;
+        id: number;
+    }[];
     rankLevel: number;
-} & ObfuscatedValue;
+};

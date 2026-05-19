@@ -1,5 +1,3 @@
-import type { ObfuscatedValue } from './common';
-
 export type Compound = {
     costTime: number;
     countDescTextMapHash: number;
@@ -8,9 +6,17 @@ export type Compound = {
     groupID: number;
     icon: string;
     id: number;
+    inputVec: {
+        count: number;
+        id: number;
+    }[];
     isDefaultUnlocked: boolean;
     nameTextMapHash: number;
+    outputVec: {
+        count: number;
+        id: number;
+    }[];
     queueSize: number;
     rankLevel: number;
     type: string;
-} & ObfuscatedValue;
+};

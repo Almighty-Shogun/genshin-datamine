@@ -1,6 +1,5 @@
 import type { ObfuscatedValue } from './common';
 
-export type VideoStreaming = {
-    type: string;
-    url: string;
+export type NewActivityStoryBoard = {
+    sceneId: number;
 } & ObfuscatedValue;

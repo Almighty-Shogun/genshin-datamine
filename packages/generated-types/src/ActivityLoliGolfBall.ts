@@ -1,6 +1,6 @@
 import type { ObfuscatedValue } from './common';
 
-export type VideoStreaming = {
-    type: string;
-    url: string;
+export type ActivityLoliGolfBall = {
+    icon: string;
+    id: number;
 } & ObfuscatedValue;
