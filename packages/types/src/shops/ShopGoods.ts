@@ -1,0 +1,36 @@
+import type { CostItem, ObfuscatedValue } from '../common';
+import type { ShopPrecondition, ShopRefreshType } from './common';
+
+export type ShopGoods = {
+    beginTime: string;
+    buyLimit: number;
+    chooseOneGroupId: number;
+    costHcoin: number;
+    costItems: CostItem[];
+    costMcoin: number;
+    costScoin: number;
+    discountRate: number;
+    displayDaysBeforeSell: number;
+    endTime: string;
+    goodsId: number;
+    isBuyOnce: boolean;
+    itemCount: number;
+    itemId: number;
+    maxPlayerLevel: number;
+    minPlayerLevel: number;
+    originalPrice: boolean;
+    platformTypeList: unknown[];
+    precondition: ShopPrecondition;
+    preconditionHidden: boolean;
+    preconditionParam: number;
+    preconditionParamList: string[];
+    refreshParam: number;
+    refreshType: ShopRefreshType;
+    rotateId: number;
+    secondarySheetId: number;
+    shopType: number;
+    showId: number;
+    sortLevel: number;
+    subTabId: number;
+    subTagNameTextMapHash: number;
+} & ObfuscatedValue;
