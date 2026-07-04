@@ -1,0 +1,45 @@
+export type DungeonBlockType = "DUNGEON_BLOCK_NONE" | "DUNGEON_UI_BLOCK_BY_QUEST";
+export type DungeonInvolveType = "INVOLVE_ONLY_SINGLE" | "INVOLVE_SINGLE_MULTIPLE";
+export type DungeonPlayType =
+    | "DUNGEON_PLAY_TYPE_NONE"
+    | "DUNGEON_PLAY_TYPE_FOGGY_MAZE"
+    | "DUNGEON_PLAY_TYPE_MIST_TRIAL"
+    | "DUNGEON_PLAY_TYPE_TRIAL_AVATAR";
+export type DungeonSettleUIType =
+    | "SETTLE_UI_AlWAYS_SHOW"
+    | "SETTLE_UI_NEVER_SHOW"
+    | "SETTLE_UI_ON_FAIL"
+    | "SETTLE_UI_ON_SUCCESS";
+export type DungeonStateType = "DUNGEON_STATE_RELEASE" | "DUNGEON_STATE_TEST";
+export type DungeonType = `DUNGEON_${string}`;
+export type DungeonSettleShow =
+    | "SETTLE_SHOW_BLACKSCREEN"
+    | "SETTLE_SHOW_KILL_MONSTER_COUNT"
+    | "SETTLE_SHOW_NONE"
+    | "SETTLE_SHOW_OPEN_CHEST_COUNT"
+    | "SETTLE_SHOW_TIME_COST";
+export type DungeonSubType =
+    | "DUNGEON_SUB_NONE"
+    | "DUNGEON_SUB_BOSS"
+    | "DUNGEON_SUB_LEY_LINE_CHALLENGE"
+    | "DUNGEON_SUB_RELIQUARY"
+    | "DUNGEON_SUB_TALENT"
+    | "DUNGEON_SUB_WEAPON";
+export type DungeonLogicType = "LOGIC_NONE" | "LOGIC_AND" | "LOGIC_OR";
+export type DungeonEntryType =
+    | `DUNGEN_ENTRY_TYPE_${string}`
+    | `DUNGEON_ENTRY_TYPE_${string}`;
+export type DungeonEntryConditionType =
+    | "DUNGEON_ENTRY_CONDITION_LEVEL"
+    | "DUNGEON_ENTRY_CONDITION_NONE"
+    | "DUNGEON_ENTRY_CONDITION_QUEST";
+export type DungeonPassConditionType =
+    | "DUNGEON_COND_END_MULTISTAGE_PLAY"
+    | "DUNGEON_COND_FINISH_CHALLENGE"
+    | "DUNGEON_COND_FINISH_QUEST"
+    | "DUNGEON_COND_IN_TIME"
+    | "DUNGEON_COND_KILL_GROUP_MONSTER"
+    | "DUNGEON_COND_KILL_MONSTER"
+    | "DUNGEON_COND_KILL_MONSTER_COUNT"
+    | "DUNGEON_COND_KILL_TYPE_MONSTER"
+    | "DUNGEON_COND_NONE";
