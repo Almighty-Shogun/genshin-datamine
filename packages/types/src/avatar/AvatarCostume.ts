@@ -1,8 +1,10 @@
-import type { ControllerPath, ObfuscatedValue, TextMapHash } from '../common';
+import type { ObfuscatedValue, TextMapHash } from '../common';
 
 export type AvatarCostume = {
     animatorConfigPathHash: number;
     characterId: number;
+    controllerPathHash: number;
+    controllerRemotePathHash: number;
     frontIconName: string;
     hide: boolean;
     imageNameHash: number;
@@ -17,4 +19,4 @@ export type AvatarCostume = {
     quality: number;
     sideIconName: string;
     skinId: number;
-} & ObfuscatedValue & ControllerPath & Omit<TextMapHash, 'titleTextMapHash'>;
+} & ObfuscatedValue & Omit<TextMapHash, 'titleTextMapHash'>;

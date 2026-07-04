@@ -18,9 +18,9 @@ export type Fetter = {
     openConds: TriggerCondition<FetterOpenConditionType>[];
     showCostumeList: number[];
     tips: number[];
-    type: number;
+    type: 1 | 2;
     voiceFile: string;
-    voiceFileTextMapHash: number;
+    voiceFileTextTextMapHash: number;
     voiceTitleLockedTextMapHash: number;
     voiceTitleTextMapHash: number;
 };

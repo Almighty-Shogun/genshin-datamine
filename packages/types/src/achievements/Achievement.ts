@@ -143,8 +143,8 @@ export type Achievement = {
     ps4GroupId: number;
     ps5GroupId: number;
     ps5TitleTextMapHash: number;
-    ps5TrophyId: number;
+    ps5TrophyId: string;
     titleTextMapHash: number;
     triggerConfig: AchievementTrigger;
-    ttype: string;
+    ttype: "" | "金" | "铜" | "银";
 } & ObfuscatedValue & Omit<TextMapHash, 'nameTextMapHash'>;

@@ -1,4 +1,4 @@
-import type { AvatarGrowCurveType } from './common'
+import type { AvatarGrowCurveType } from './common';
 import type { ControllerPath, ObfuscatedValue, TextMapHash, WeaponType, FightingProp } from '../common';
 
 export type AvatarIdentity =
@@ -39,14 +39,14 @@ export type Avatar = {
     campID: number;
     candSkillDepotIds: number[];
     chargeEfficiency: number;
-    combatConfigPath: number;
+    combatConfigHash: number;
     coopPicNameHash: number;
     critical: number;
     criticalHurt: number;
     defenseBase: number;
     deformationMeshPathHash: number;
     elecSubHurt: number;
-    elementalMastery: number;
+    elementMastery: number;
     featureTagGroupID: number;
     fireSubHurt: number;
     gachaCardNameHash: number;

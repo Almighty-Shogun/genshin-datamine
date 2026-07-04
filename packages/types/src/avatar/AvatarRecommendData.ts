@@ -1,7 +1,7 @@
-import type { ObfuscatedValue } from '../common';
+import type { Element, ObfuscatedValue } from '../common';
 
 export type AvatarRecommendData = {
     avatarId: number;
-    elementType: string;
+    elementType: Element;
     talents: number[];
 } & ObfuscatedValue;

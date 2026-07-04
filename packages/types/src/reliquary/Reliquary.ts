@@ -16,7 +16,7 @@ export type Reliquary = {
     icon: string;
     id: number;
     initialLockState: number;
-    itemType: string;
+    itemType: "ITEM_RELIQUARY";
     mainPropDepotId: number;
     maxLevel: number;
     rank: number;

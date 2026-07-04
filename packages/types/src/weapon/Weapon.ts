@@ -1,4 +1,4 @@
-import type { WeaponGrowCurveType } from './common'
+import type { WeaponGrowCurveType } from './common';
 import type { FightingProp, ObfuscatedValue, TextMapHash, WeaponType, DestroyRule } from '../common';
 
 export type WeaponProp = {
@@ -22,9 +22,9 @@ export type Weapon = {
     globalItemLimit: number;
     icon: string;
     id: number;
-    initialLockState: number;
-    itemType: string;
-    materialType: string;
+    initialLockState: 0 | 1 | 2;
+    itemType: "ITEM_WEAPON";
+    materialType: "WEAPON_MATERIAL_NONE";
     rank: number;
     rankLevel: number;
     skillAffix: number[];

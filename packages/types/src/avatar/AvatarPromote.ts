@@ -1,4 +1,4 @@
-import type { ObfuscatedValue, AdditionProp, CostItem } from '../common';
+import type { AdditionProp, CostItem } from '../common';
 
 export type AvatarPromote = {
     addProps: AdditionProp[];
@@ -9,4 +9,4 @@ export type AvatarPromote = {
     requiredPlayerLevel: number;
     scoinCost: number;
     unlockMaxLevel: number;
-} & ObfuscatedValue;
+};

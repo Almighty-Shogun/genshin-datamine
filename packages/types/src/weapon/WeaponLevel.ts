@@ -1,4 +1,4 @@
 export type WeaponLevel = {
-  level: number;
-  requiredExps: number[];
+    level: number;
+    requiredExps: number[];
 };

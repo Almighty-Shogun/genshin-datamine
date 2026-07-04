@@ -3,7 +3,7 @@ import type { ObfuscatedValue, Element, TextMapHash } from '../common';
 export type AvatarSkill = {
     abilityName: string;
     buffIcon: string;
-    cdSlot: null;
+    cdSlot: number;
     cdTime: number;
     costElemType: Element;
     costElemVal: number;
@@ -21,5 +21,8 @@ export type AvatarSkill = {
     proudSkillGroupId: number;
     shareCDID: number;
     skillIcon: string;
+    specialEnergyMax: number;
+    specialEnergyMin: number;
+    specialEnergyType: "SPECIAL_ENERGY_NONE" | "SPECIAL_ENERGY_MAVUIKA" | "SPECIAL_ENERGY_SKIRK";
     triggerID: number;
 } & ObfuscatedValue & Omit<TextMapHash, 'titleTextMapHash'>;

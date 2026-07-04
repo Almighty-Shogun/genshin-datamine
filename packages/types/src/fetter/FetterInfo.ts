@@ -7,13 +7,15 @@ export type AvatarAssociationType =
     | "ASSOC_TYPE_MAINACTOR"
     | "ASSOC_TYPE_LIYUE"
     | "ASSOC_TYPE_FATUI"
+    | "ASSOC_TYPE_HVISION"
     | "ASSOC_TYPE_RANGER"
     | "ASSOC_TYPE_SUMERU"
     | "ASSOC_TYPE_FONTAINE"
     | "ASSOC_TYPE_NATLAN"
     | "ASSOC_TYPE_OMNI_SCOURGE"
     | "ASSOC_TYPE_NODKRAI"
-    | "ASSOC_TYPE_NODKRAI_ZIBAI";
+    | "ASSOC_TYPE_NODKRAI_ZIBAI"
+    | "ASSOC_TYPE_SNEZHNAYA_STAR";
 
 export type FetterInfoFinishConditionType =
     | "FETTER_COND_NOT_OPEN"
@@ -23,13 +25,13 @@ export type FetterInfoFinishConditionType =
 export type FetterInfo = {
     avatarAssocType: AvatarAssociationType;
     avatarConstellationAfterTextMapHash: number;
-    avatarConstellationBeforeTextMapHash: number;
+    avatarConstellationBeforTextMapHash: number;
     avatarDetailTextMapHash: number;
     avatarId: number;
     avatarNativeTextMapHash: number;
     avatarTitleTextMapHash: number;
     avatarVisionAfterTextMapHash: number;
-    avatarVisionBeforeTextMapHash: number;
+    avatarVisionBeforTextMapHash: number;
     cvChineseTextMapHash: number;
     cvEnglishTextMapHash: number;
     cvJapaneseTextMapHash: number;

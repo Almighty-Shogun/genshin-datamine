@@ -15,7 +15,7 @@ export type LifeEffectType =
     | "PROUD_EFFECT_COOK_CAN_NOT_COOK"
     | "PROUD_EFFECT_WEAPON_PROMOTE_REDUCE_SCOIN"
     | "PROUD_EFFECT_HIT_TREE_EXTRA_OUTPUT"
-    | "PROUD_EFFECT_COMBINE_RETURN_SPECIAL_MATERIAL"
+    | "PROUD_EFFECT_COMBINE_RETURN_CITY_MATERIAL"
     | "PROUD_EFFECT_EXPEDITION_EXTRA_OUTPUT"
     | "PROUD_EFFECT_USE_FOOD_PROB_GET_ITEM";
 
@@ -24,7 +24,7 @@ export type ProudSkill = {
     breakLevel: number;
     coinCost: number;
     costItems: CostItem[];
-    filterConds: string[];
+    filterConds: "TALENT_FILTER_NONE"[];
     icon: string;
     isHideLifeProudSkill: boolean;
     level: number;
@@ -35,6 +35,6 @@ export type ProudSkill = {
     paramList: number[];
     proudSkillGroupId: number;
     proudSkillId: number;
-    proudSkillType: number;
+    proudSkillType: 2 | 3 | 4 | 5;
     unlockDescTextMapHash: number;
 } & ObfuscatedValue & Omit<TextMapHash, 'titleTextMapHash'>;
