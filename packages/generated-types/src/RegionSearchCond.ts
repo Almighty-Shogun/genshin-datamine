@@ -1,5 +1,3 @@
-import type { ObfuscatedValue } from './common';
-
 export type RegionSearchCond = {
     cond: {
         param: number[];
@@ -13,5 +11,6 @@ export type RegionSearchCond = {
     rewardId: number;
     searchDescTextMapHash: number;
     searchMapDescTextMapHash: number;
+    searchNameTextMapHash: number;
     totalProgress: number;
-} & ObfuscatedValue;
+};

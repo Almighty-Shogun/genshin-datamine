@@ -6,5 +6,5 @@ export type MusicPartyLevel = {
     levelId: number;
     levelNameTextMapHash: number;
     musicId: number;
-    pushtipsId: number;
+    scheduleId: number;
 } & ObfuscatedValue;

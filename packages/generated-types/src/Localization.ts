@@ -1,7 +1,6 @@
 import type { ObfuscatedValue } from './common';
 
 export type Localization = {
-    assetType: string;
     dePath: string;
     enPath: string;
     esPath: string;

@@ -11,5 +11,6 @@ export type OfferingOpenStateConfigData = {
     offeringId: number;
     openState: string;
     pushTipID: number;
+    sceneID: number;
     scenePointID: number;
 } & ObfuscatedValue;

@@ -6,8 +6,10 @@ export type RegionSearch = {
     markIconTypeName: string;
     materialId: number;
     reviseLevel: number;
+    searchCompleteTextMapHash: number;
     searchDescTextMapHash: number;
     searchGroupId: number;
+    searchNameTextMapHash: number;
     searchType: string;
     tutorialId: number;
 } & ObfuscatedValue;

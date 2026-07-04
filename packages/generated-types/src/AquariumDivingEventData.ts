@@ -1,6 +1,6 @@
 import type { ObfuscatedValue } from './common';
 
-export type BeyondOfficalAssetData = {
+export type AquariumDivingEventData = {
     id: number;
-    path: string;
+    nameTextMapHash: number;
 } & ObfuscatedValue;

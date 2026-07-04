@@ -5,4 +5,5 @@ export type BubbleTalkData = {
     delay: number;
     id: number;
     soundEffect: string;
+    style: string;
 } & ObfuscatedValue;

@@ -6,6 +6,7 @@ export type Talk = {
     }[];
     heroRuleId: number;
     isEnableNoBlackInter: boolean;
+    isShowAdventureGlossary: boolean;
     linkBehaviorGrpId: number;
     newTalkFinishTime: boolean;
     activeMode: string;

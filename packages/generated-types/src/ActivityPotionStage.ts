@@ -1,7 +1,6 @@
-import type { ObfuscatedValue } from './common';
-
 export type ActivityPotionStage = {
     buffIdList: number[];
+    desciptionTextMapHash: number;
     dungeonEntryID: number;
     levelIdList: number[];
     openDay: number;
@@ -9,4 +8,4 @@ export type ActivityPotionStage = {
     titleTextMapHash: number;
     trialAvatarList: number[];
     watcherIdList: number[];
-} & ObfuscatedValue;
+};

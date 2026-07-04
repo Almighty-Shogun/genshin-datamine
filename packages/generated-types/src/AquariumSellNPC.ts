@@ -1,6 +1,5 @@
 import type { ObfuscatedValue } from './common';
 
-export type BeyondOfficalAssetData = {
+export type AquariumSellNPC = {
     id: number;
-    path: string;
 } & ObfuscatedValue;

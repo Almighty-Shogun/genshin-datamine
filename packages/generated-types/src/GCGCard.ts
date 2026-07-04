@@ -4,7 +4,6 @@ export type GCGCard = {
     buffIconHash: number;
     cardType: string;
     changeToWhichSpecialView: number;
-    changeToWhichSpecialViewTokenNum: number;
     chooseTargetList: number[];
     chooseTargetType: string;
     costList: {
