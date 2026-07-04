@@ -1,0 +1,8 @@
+export type TowerConditionType =
+    | "TOWER_COND_CHALLENGE_LEFT_TIME_MORE_THAN"
+    | "TOWER_COND_LEFT_HP_GREATER_THAN";
+
+export type TowerBuffLastingType =
+    | "TOWER_BUFF_LASTING_FLOOR"
+    | "TOWER_BUFF_LASTING_IMMEDIATE"
+    | "TOWER_BUFF_LASTING_LEVEL";
