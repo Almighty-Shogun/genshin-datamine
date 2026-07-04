@@ -2,6 +2,8 @@ export type { Avatar, AvatarIdentity, AvatarBodyType, AvatarQualityType, AvatarU
 export type { AvatarCodex } from './AvatarCodex'
 export type { AvatarCostume } from './AvatarCostume'
 export type { AvatarCurve } from './AvatarCurve'
+export type { AvatarEnhanceOverall } from './AvatarEnhanceOverall'
+export type { AvatarEnhanceTopic } from './AvatarEnhanceTopic'
 export type { AvatarExtraLevel } from './AvatarExtraLevel'
 export type { AvatarExtraProp } from './AvatarExtraProp'
 export type { AvatarFettersLevel } from './AvatarFettersLevel'
